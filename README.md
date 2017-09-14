@@ -1,4 +1,4 @@
-# Cleverbean
+#Cleverbean
 
 ###Install
 Download the repo and then in the projects root dir run (via terminal):
