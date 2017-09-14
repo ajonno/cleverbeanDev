@@ -13,9 +13,7 @@ Feel free to run in XCode (I'm using 8.3.3)
 
 Just prior to meeting with you all, I had wanted to do a real comparison of 'speed of development' (plus - dev experience/flow/tooling) between Swift and React Native, on an actual production project. My feeling is that the result will be surprising (vs. common perceptions) and there's much I can discuss about it, however we can do that at another time(!).
 
-Just as a reminder, this Swift project is only a few days old and has plenty left to do.
-
-However hopefully what is here so far will give you a feel for how I structure and reason about code. 
+Just as a reminder, this Swift project is only a few days old and has plenty left to do. Hopefully what is here so far will give you a feel for how I structure and reason about code. 
 
 Some quick points I'd like to make in that context:
 * "survey" the project at a high level and identify as much shared/common components as possible/practical
