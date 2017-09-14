@@ -1,6 +1,6 @@
-#Cleverbean
+# Cleverbean
 
-###Install
+### Install
 Download the repo and then in the projects root dir run (via terminal):
 * pod install
 
@@ -9,7 +9,7 @@ Feel free to run in XCode (I'm using 8.3.3)
 -----------------------------------------------
 
 
-####What is this repo ?
+#### What is this repo ?
 
 Just prior to meeting with you all, I had wanted to do a real comparison of 'speed of development' (plus - dev experience/flow/tooling) between Swift and React Native, on an actual production project. My feeling is that the result will be surprising (vs. common perceptions) and there's much I can discuss about it, however we can do that at another time(!).
 
