@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>number_students</key>
+		<string>12</string>
+		<key>group_name</key>
+		<string>My Group of Kids</string>
+	</dict>
+	<dict>
+		<key>number_students</key>
+		<string>5</string>
+		<key>group_name</key>
+		<string>Weebles</string>
+	</dict>
+	<dict>
+		<key>number_students</key>
+		<string>21</string>
+		<key>group_name</key>
+		<string>Cheeky Chops</string>
+	</dict>
+	<dict>
+		<key>number_students</key>
+		<string>12</string>
+		<key>group_name</key>
+		<string>My Group of Kids</string>
+	</dict>
+	<dict>
+		<key>number_students</key>
+		<string>5</string>
+		<key>group_name</key>
+		<string>Weebles</string>
+	</dict>
+	<dict>
+		<key>number_students</key>
+		<string>21</string>
+		<key>group_name</key>
+		<string>Cheeky Chops</string>
+	</dict>
+</array>
+</plist>

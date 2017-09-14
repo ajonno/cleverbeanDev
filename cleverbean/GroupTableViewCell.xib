@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="117" id="KGk-i7-Jjw" customClass="GroupTableViewCell" customModule="cleverbean" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="647" height="117"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="647" height="116.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNO-sl-dLN">
+                        <rect key="frame" x="0.0" y="8" width="647" height="60"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_of_students" translatesAutoresizingMaskIntoConstraints="NO" id="ul8-dD-H0L">
+                                <rect key="frame" x="8" y="8" width="51" height="38"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="xbL-Dv-401"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right" translatesAutoresizingMaskIntoConstraints="NO" id="4Ta-bW-4Tj">
+                                <rect key="frame" x="597" y="22" width="29" height="16"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="29" id="r8E-jA-mRU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;group Label&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GW-yB-UBl">
+                                <rect key="frame" x="59" y="15" width="482" height="24"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="482" id="Uvd-7G-XkL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Ta-bW-4Tj" secondAttribute="trailing" constant="13" id="4hS-ui-Tl3"/>
+                            <constraint firstItem="4Ta-bW-4Tj" firstAttribute="top" secondItem="cNO-sl-dLN" secondAttribute="topMargin" constant="14" id="5Ih-dL-HoZ"/>
+                            <constraint firstItem="ul8-dD-H0L" firstAttribute="top" secondItem="cNO-sl-dLN" secondAttribute="topMargin" id="RYc-gn-cho"/>
+                            <constraint firstItem="3GW-yB-UBl" firstAttribute="leading" secondItem="ul8-dD-H0L" secondAttribute="trailing" id="S4G-VQ-Wcb"/>
+                            <constraint firstItem="ul8-dD-H0L" firstAttribute="leading" secondItem="cNO-sl-dLN" secondAttribute="leadingMargin" id="mFs-4b-T2p"/>
+                            <constraint firstItem="3GW-yB-UBl" firstAttribute="top" secondItem="cNO-sl-dLN" secondAttribute="top" constant="15" id="uOh-hX-9Z2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MT4-eI-3n2">
+                        <rect key="frame" x="0.0" y="78" width="647" height="33"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus_medium_grey" translatesAutoresizingMaskIntoConstraints="NO" id="V4T-Sx-mwk">
+                                <rect key="frame" x="599" y="6" width="25" height="20"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="AOy-H8-I2l"/>
+                                    <constraint firstAttribute="height" constant="20" id="mVy-oZ-ieS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ADD STUDENT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guh-Y2-9HG">
+                                <rect key="frame" x="16" y="8" width="161" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="V4T-Sx-mwk" secondAttribute="trailing" constant="23" id="Bg4-QX-Ad3"/>
+                            <constraint firstAttribute="height" constant="33" id="Tfc-Yl-LJc"/>
+                            <constraint firstAttribute="bottom" secondItem="V4T-Sx-mwk" secondAttribute="bottom" constant="7" id="jQe-96-izW"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kI2-Tz-WcZ" userLabel="Horizontal line">
+                        <rect key="frame" x="0.0" y="69" width="647" height="1"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="PyU-Gl-ce7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <gestureRecognizers/>
+                <constraints>
+                    <constraint firstItem="cNO-sl-dLN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="00x-lY-EBl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kI2-Tz-WcZ" secondAttribute="trailing" constant="-8" id="0Z7-Hc-nfq"/>
+                    <constraint firstItem="kI2-Tz-WcZ" firstAttribute="top" secondItem="cNO-sl-dLN" secondAttribute="top" constant="61" id="JaK-9f-uHI"/>
+                    <constraint firstItem="MT4-eI-3n2" firstAttribute="top" secondItem="cNO-sl-dLN" secondAttribute="bottom" constant="10" id="TRi-hk-GfL"/>
+                    <constraint firstAttribute="trailing" secondItem="cNO-sl-dLN" secondAttribute="trailing" id="afc-nQ-4WN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="MT4-eI-3n2" secondAttribute="trailing" constant="-8" id="bPs-D5-g4l"/>
+                    <constraint firstItem="kI2-Tz-WcZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="fxq-zL-Mt4"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="MT4-eI-3n2" secondAttribute="bottom" constant="-2" id="hZZ-Bl-9Rf"/>
+                    <constraint firstItem="cNO-sl-dLN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="lU9-zu-ByS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="MT4-eI-3n2" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="Lac-6q-cMp"/>
+            </constraints>
+            <connections>
+                <outlet property="addStudentFrame" destination="MT4-eI-3n2" id="opO-ZB-qMn"/>
+                <outlet property="groupName" destination="3GW-yB-UBl" id="qF3-hx-Yj1"/>
+                <outlet property="groupNameFrame" destination="cNO-sl-dLN" id="9c5-Nv-Ww0"/>
+                <outlet property="picture" destination="ul8-dD-H0L" id="NV3-Fe-x0w"/>
+            </connections>
+            <point key="canvasLocation" x="-668" y="-659"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="_of_students" width="34" height="38"/>
+        <image name="arrow_right" width="26" height="16"/>
+        <image name="plus_medium_grey" width="16" height="16"/>
+    </resources>
+</document>
