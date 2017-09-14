@@ -28,6 +28,7 @@
 		EF3CB4B41F66AAF50088F470 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3CB4B31F66AAF50088F470 /* NotesViewController.swift */; };
 		EF3DDCF61F558CE200695532 /* sample_group_data.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF3DDCF51F558CE200695532 /* sample_group_data.plist */; };
 		EF48F9F11F61680700D88C4B /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48F9F01F61680700D88C4B /* NewGroupViewController.swift */; };
+		EF51D6F81F6AA86300F5FC67 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EF51D6F71F6AA86300F5FC67 /* README.md */; };
 		EF820C971F6A0B6300DA74EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF820C961F6A0B6300DA74EC /* GoogleService-Info.plist */; };
 		EF8A37D31F4AFE31003B43EE /* FirebaseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A37D21F4AFE31003B43EE /* FirebaseAuthentication.swift */; };
 		EF8AFF081F482F68001C4DE3 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF8AFEFF1F482F68001C4DE3 /* Montserrat-Black.otf */; };
@@ -97,6 +98,7 @@
 		EF3CB4B31F66AAF50088F470 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		EF3DDCF51F558CE200695532 /* sample_group_data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample_group_data.plist; sourceTree = "<group>"; };
 		EF48F9F01F61680700D88C4B /* NewGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		EF51D6F71F6AA86300F5FC67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EF820C961F6A0B6300DA74EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF8A37D21F4AFE31003B43EE /* FirebaseAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthentication.swift; sourceTree = "<group>"; };
 		EF8A37D61F4B0359003B43EE /* cleverbean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cleverbean.entitlements; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 		EFEA5A851F470EEA0079AEDD = {
 			isa = PBXGroup;
 			children = (
+				EF51D6F71F6AA86300F5FC67 /* README.md */,
 				EFEA5A901F470EEA0079AEDD /* cleverbean */,
 				EFEA5A8F1F470EEA0079AEDD /* Products */,
 				056E7FBEC96C29A4989E922B /* Pods */,
@@ -510,6 +513,7 @@
 				EFEA5A941F470EEA0079AEDD /* ViewController.swift in Sources */,
 				EFAFD35F1F641D500092D5B4 /* StudentsViewController.swift in Sources */,
 				EF3CB4AD1F66A3230088F470 /* TabStrip.swift in Sources */,
+				EF51D6F81F6AA86300F5FC67 /* README.md in Sources */,
 				EF2106C81F5D76B8008E7403 /* ExtendedNavBarView.swift in Sources */,
 				EF8AFF241F483CDA001C4DE3 /* UITextField.swift in Sources */,
 				EF04D6071F4C5A6D0019E195 /* MainTabBarViewController.swift in Sources */,
