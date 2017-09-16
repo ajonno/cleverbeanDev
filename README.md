@@ -6,6 +6,10 @@ Download the repo and then in the projects root dir run (via terminal):
 
 Feel free to run in XCode (I'm using 8.3.3)
 
+To login to the app (via Firebase auth) use:
+uid: a@a.aa
+pwd: aaaaaa
+
 -----------------------------------------------
 
 
